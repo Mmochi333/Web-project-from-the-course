@@ -174,9 +174,9 @@ html {
  }
 
  /* =========================
-    Advice Section 
+    Info Section 
 ========================= */
- .advice-section {
+.info-section {
     background-color: var(--light-bg-color);
     border-radius: 1rem;
     padding: 2.5rem 1.5rem;
@@ -184,7 +184,7 @@ html {
     box-shadow: var(--card-shadow);
 }
 
-.advice-title {
+.info-title {
     text-align: center;
     font-size: 1.35rem;
     color: #111827;
@@ -192,43 +192,43 @@ html {
     font-weight: bold;
 }
 
-.advice-grid {
+.info-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
-.advice-card {
+.info-card {
     padding: 1.25rem;
     border-radius: 0.75rem;
 }
 
-.advice-card h3 {
+.info-card h3 {
     font-size: 0.95rem;
     font-weight: 700;
     margin-bottom: 0.6rem;
     color: #1e293b;
 }
 
-.advice-card p {
+.info-card p {
     font-size: 0.8rem;
     line-height: 1.5;
     color: #475569;
 }
 
 /* สีพาสเทลตามรูปภาพ */
-.card-blue {
+.info-blue {
     background-color: #dbeafe;
 }
 
-.card-purple {
+.info-purple {
     background-color: #f3e8ff;
 }
 
-.card-green {
+.info-green {
     background-color: #dcfce7;
 }
 
-.card-orange {
+.info-orange {
     background-color: #ffedd5;
 }
